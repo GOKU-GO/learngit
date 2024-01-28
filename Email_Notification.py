@@ -26,7 +26,7 @@ def Pro_create_presigned_url(expiration=604800):
 
     # connect to s3
     s3 = boto3.client('s3',aws_access_key_id='',aws_secret_access_key = '',region_name = '')
-   
+    
     # define filename
     bucket_name = "caratlane-intent"
     today_date = str(datetime.datetime.today())
