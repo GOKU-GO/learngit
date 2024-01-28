@@ -5,11 +5,11 @@ import sys
 import os 
 from datetime import date
 from datetime import timedelta
-import os
 import io
 import warnings
 warnings.filterwarnings("ignore")
 import boto3
+import s3fs
 import json
 import datetime
 from botocore.exceptions import ClientError
